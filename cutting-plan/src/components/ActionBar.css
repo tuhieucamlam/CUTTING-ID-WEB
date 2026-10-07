@@ -1,0 +1,53 @@
+.action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: #fff;
+  padding: 10px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.action-left,
+.action-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+  transition: filter 0.15s, box-shadow 0.15s;
+}
+.btn:hover  { filter: brightness(0.93); }
+.btn:active { filter: brightness(0.85); }
+
+.btn-green {
+  background: #38a169;
+  color: #fff;
+}
+.btn-blue {
+  background: #3182ce;
+  color: #fff;
+}
+.btn-outline {
+  background: #fff;
+  color: #4a5568;
+  border: 1px solid #cbd5e0;
+}
+.btn-outline:hover { border-color: #a0aec0; color: #2d3748; background: #f7fafc; }
+.btn-active { border-color: #3182ce !important; color: #3182ce !important; background: #ebf4ff !important; }
+
+.tv-btn { font-size: 12px; }
